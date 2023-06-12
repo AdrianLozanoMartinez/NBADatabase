@@ -7,7 +7,7 @@ name: Deploy Blazor Webassembly App
 
 # Declaring custom variables
 env:
-  PROJECT_NAME: NBADatabase  # Write here your project name
+  PROJECT_NAME: NBADatabase # Write here your project name
   REPO_NAME: ${{ github.event.repository.name }}
 
 on:
